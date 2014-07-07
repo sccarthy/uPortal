@@ -1,0 +1,61 @@
+/**
+ * Licensed to Jasig under one or more contributor license
+ * agreements. See the NOTICE file distributed with this work
+ * for additional information regarding copyright ownership.
+ * Jasig licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file
+ * except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on
+ * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+/* tip portlet */
+#portalTip {
+    background-image: -moz-linear-gradient(top,white,#eee 65px);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(white),to(#eee),color-stop(0.1,white));
+    background-image: linear-gradient(top,white,#eee 65px);
+    background-image: -ms-linear-gradient(top, rgba(238,238,238,1) 1%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#eeeeee'); 
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding-left: 12px;
+    position: relative;
+}
+#portalTip .portal-tip-inner {
+    background: url(../images/icon-tip.png) left center no-repeat;
+    padding: 10px 20px 10px 24px;
+}
+#portalTip p {
+    margin: 0;
+    font-weight: bold;
+}
+
+#portalTip #tip-nextTip
+{
+    background:url('/ResourceServingWebapp/rs/jqueryui/1.8.13/theme/smoothness/images/ui-icons_222222_256x240.png');
+    background-position:-113px -193px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width:14px;
+    height:14px;
+}
+
+#portalTip #tip-nextTip span
+{
+    display:none;
+}
