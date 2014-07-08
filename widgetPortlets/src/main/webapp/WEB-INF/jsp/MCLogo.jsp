@@ -25,7 +25,7 @@
 
 <div>
 <h2>
-<img src="/home/susan/uPortal/uPortal-git/widgetPortlets/src/main/webapp/images/MCLogo.jpg" alt="MCLogo" >
+<img src="/home/susan/uPortal/uPortal-git/widgetPortlets/src/main/webapp/images/MCLogo.png" alt="MCLogo" >
 </h2>
 </div>
 
