@@ -23,9 +23,10 @@
 
 
 
-<div style="color:#0000FF">
-  <h1>This is a heading in a div element</h1>
-  <p>This is some text in a div element.</p>
+<div>
+<h2>
+<img src="/home/susan/uPortal/uPortal-git/widgetPortlets/src/main/webapp/images/MCLogo.jpg" alt="MCLogo" >
+</h2>
 </div>
 
 

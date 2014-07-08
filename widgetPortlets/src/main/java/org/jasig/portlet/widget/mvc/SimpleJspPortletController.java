@@ -45,8 +45,8 @@ public class SimpleJspPortletController {
 
     public static final String JSP_NAME_PREFERENCE = "SimpleJspPortletController.jspName";
     public static final String PREF_SECURITY_ROLE_NAMES = "SimpleJspPortletController.securityRolesToTest";
-    //public static final String INSTRUCTIONS_VIEW = "simple-jsp-instructions";
-    public static final String MCLOGO_VIEW = "MCLogo";
+    public static final String INSTRUCTIONS_VIEW = "simple-jsp-instructions";
+    //public static final String MCLOGO_VIEW = "MCLogo";
 
     // Instance Members.
     private final Log log = LogFactory.getLog(getClass());
@@ -65,8 +65,8 @@ public class SimpleJspPortletController {
         if (jspName == null) {
 
             final PortletPreferences prefs = req.getPreferences();
-            //jspName = prefs.getValue(JSP_NAME_PREFERENCE, INSTRUCTIONS_VIEW);
-            jspName = prefs.getValue(JSP_NAME_PREFERENCE, MCLOGO_VIEW);
+            jspName = prefs.getValue(JSP_NAME_PREFERENCE, INSTRUCTIONS_VIEW);
+            //jspName = prefs.getValue(JSP_NAME_PREFERENCE, MCLOGO_VIEW);
             /*
              * TODO:  In the future, we'll likely want to provide JSPs with access
              * to things like...
