@@ -20,7 +20,7 @@
     </parameter>
     <parameter>
         <name>configurable</name>
-        <value>true</value>
+        <value>false</value>
     </parameter>
     <parameter>
         <name>disableDynamicTitle</name>
@@ -28,15 +28,15 @@
     </parameter>
     <parameter>
         <name>editable</name>
-        <value>true</value>
+        <value>false</value>
     </parameter>
     <parameter>
         <name>hasAbout</name>
-        <value>true</value>
+        <value>false</value>
     </parameter>
     <parameter>
         <name>hasHelp</name>
-        <value>true</value>
+        <value>false</value>
     </parameter>
     <parameter>
         <name>hideFromMobile</name>
@@ -72,7 +72,7 @@
     <portlet-preference>
         <name>img-uri</name>
         <readOnly>false</readOnly>
-        <value>/home/susan/uPortal/uPortal-git/widgetPortlets/src/main/webapp/images/MCLogo.png</value>
+        <value>/images/MCLogo.png</value>
     </portlet-preference>
     <portlet-preference>
         <name>img-width</name>
