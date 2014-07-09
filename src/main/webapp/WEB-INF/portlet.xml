@@ -217,7 +217,8 @@
         </portlet-info>
         <portlet-preferences>
             <preference>
-                <name>SimpleJspPortletController.jspName</name>
+                <!--<name>SimpleJspPortletController.jspName</name> -->
+		<name>MCLogo.jspName</name>
                 <value>MCLogo</value>
             </preference>
 
