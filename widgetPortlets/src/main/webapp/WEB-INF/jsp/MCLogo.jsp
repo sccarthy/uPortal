@@ -19,12 +19,12 @@
 
 --%>
 
-<jsp:directive.include file="/WEB-INF/jsp/include.jsp"/>
+<%@ page contentType="text/html" isELIgnored="false" %>
 
 
 
 <div>
-<img src="/home/susan/uPortal/uPortal-git/widgetPortlets/src/main/webapp/images/MCLogo.png" alt="MCLogo">
+<img src="/home/susan/uPortal/uPortal-git/widgetPortlets/src/main/webapp/images/MCLogo.png" alt="MCLogo"></img>
 </div>
 
 
