@@ -20,11 +20,14 @@
 --%>
 
 <%@ page contentType="text/html" isELIgnored="false" %>
+<%@ include file="/WEB-INF/jsp/include.jsp"%>
 
 
 
-<div>
-<img src="/home/susan/uPortal/uPortal-git/widgetPortlets/src/main/webapp/images/MCLogo.png" alt="MCLogo"></img>
+<div id="region-header-left">
+	<div class="up-portlet-wrapper MCLogo">
+		<img src="/home/susan/uPortal/uPortal-git/widgetPortlets/src/main/webapp/images/MCLogo.png"></img>
+	</div>
 </div>
 
 
