@@ -20,7 +20,12 @@
 --%>
 
 <%@ page contentType="text/html" isELIgnored="false" %>
-<%@ include file="/WEB-INF/jsp/include.jsp"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="portlet" uri="http://java.sun.com/portlet" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="rs" uri="http://www.jasig.org/resource-server" %>
+<portlet:defineObjects/>
+<c:set var="n"><portlet:namespace/></c:set>
 
 
 
