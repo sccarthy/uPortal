@@ -70,5 +70,13 @@
     </skin-description>
   </skin>
   
+  <skin>
+    <skin-key>MCSkin</skin-key>
+    <skin-name>MCSkin</skin-name>
+    <skin-description>
+	Manhattan College Skin dev. 
+    </skin-description>
+  </skin>
+
 </skins>
 
