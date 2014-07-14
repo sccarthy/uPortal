@@ -78,6 +78,14 @@
       Basic skin for the Respondr theme based on Twitter Bootstrap and Responsive Design
     </skin-description>
   </skin>
+
+<skin>
+    <skin-key>MCSkin</skin-key>
+    <skin-name>MCSkin</skin-name>
+    <skin-description>
+	Manhattan College Skin Development 
+    </skin-description>
+  </skin>
   
 </skins>
 
