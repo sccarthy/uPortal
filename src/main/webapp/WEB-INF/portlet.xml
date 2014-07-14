@@ -199,31 +199,6 @@
     </portlet>
 
 
-
- <portlet>
-        <portlet-name>MCLogo</portlet-name>
-        <display-name>MCLogo</display-name>
-        <portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
-        <init-param>
-            <name>contextConfigLocation</name>
-            <value>/WEB-INF/context/portlet/MCLogoPortletContext.xml</value>
-        </init-param>
-        <supports>
-            <mime-type>text/html</mime-type>
-            <portlet-mode>view</portlet-mode>
-        </supports>
-        <portlet-info>
-            <title>MCLogo</title>
-        </portlet-info>
-        <portlet-preferences>
-            <preference>
-                <!--<name>SimpleJspPortletController.jspName</name> -->
-		<name>MCLogo.jsp</name>
-                <value>MCLogo</value>
-            </preference>
-
- </portlet>
-
     <!--portlet>
         <portlet-name>stocks</portlet-name>
         <display-name xml:lang="en">Stocks</display-name>
