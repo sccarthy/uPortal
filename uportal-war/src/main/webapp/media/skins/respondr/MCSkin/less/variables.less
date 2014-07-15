@@ -27,18 +27,27 @@
  * Grayscale colors. 1 is lightest, 10 is darkest.
  */
 
-@grayscale1: #F5F5F5;
-@grayscale2: #E5E5E5;
+@grayscale1: #F5F5F5; 
+@grayscale2: #E5E5E5; 
 @grayscale3: #D8D8D8;
 @grayscale4: #CCCCCC;
 @grayscale5: #ADADAD;
 @grayscale6: #999999;
 @grayscale7: #8C8C8C;
-@grayscale8: #696969;
+@grayscale8: #696969; 
 @grayscale9: #404040;
 @grayscale10: #333333;
 //@grayscale10: #F68923; // orange
 @grayscale11: #DB7093; // pale pink
+
+@grayscale12: #00FFFF; // aqua 
+@grayscale13: #8A2BE2; // blue violet
+@grayscale14: #FFD700; // gold 
+@grayscale15: #7CFC00; // bright green 
+@grayscale16: #FF6347; // tomato 
+@grayscale17: #8B4513; // brown
+
+
 /*
  * Primary color with 3 lightened shades and 3 darkened shades.
  *
@@ -125,7 +134,8 @@
 @btn-skin-text-color:             #fff;
 @btn-skin-background-color:       @color2;
 
-@btn-skin-alt-text-color:         @grayscale10;
+//@btn-skin-alt-text-color:         @grayscale10;
+@btn-skin-alt-text-color:         @grayscale12;
 @btn-skin-alt-background-color:   @color3;
 
 
@@ -168,14 +178,19 @@
 /**
  * Portlet Chrome Settings
  */
-@portlet-border-color: @grayscale2;
+//@portlet-border-color: @grayscale2;
+@portlet-border-color: @grayscale14;
 @portlet-border-radius: 5px;
-@portlet-header-border-color: @grayscale2;
+//@portlet-header-border-color: @grayscale2;
+@portlet-header-border-color: @grayscale15;
 
-@portlet-titlebar-link-color: @grayscale10;
-@portlet-titlebar-background-color: @grayscale2;
+//@portlet-titlebar-link-color: @grayscale10;
+//@portlet-titlebar-background-color: @grayscale2;
+@portlet-titlebar-link-color: @grayscale16;
+@portlet-titlebar-background-color: @grayscale17;
 
-@portlet-options-link-color: @grayscale10;
+//@portlet-options-link-color: @grayscale10;
+@portlet-options-link-color: @grayscale13;
 @portlet-options-link-hover-color: darken(@portlet-options-link-color, 20%);
 
 /**
