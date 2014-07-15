@@ -19,4 +19,17 @@ a.btn {
         border-bottom: none;
         .border-radiuses-top(@portlet-border-radius);
         position: relative;
+ h2 {
+            font-size: 14px;
+            padding: 7px 7px;
+            margin: 0;
+            list-style: none;
+            line-height: 20px;
+            a {
+                color: @grayscale14;
+                &:hover {
+                    color: darken(@grayscale14, 20%)
+                }
+            }
+        }
 }
