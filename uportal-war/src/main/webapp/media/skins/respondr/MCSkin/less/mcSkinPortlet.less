@@ -18,10 +18,9 @@ a.btn {
 
  	background-color: @grayscale12; /* Old browsers */
         background-color: @grayscale12; 
-        #gradient > .vertical(lighten(@grayscale12, 5%), darken(@grayscale12, 10%), 0%, 100%);
+        #gradient > .vertical(lighten(@grayscale12, 5%), darken(@grayscale12, 10%), 0%, 100%);// portlets header box background color  
         .border(@grayscale17); // top border line (one line across the top) of portlets header box 
-         //border-bottom: none;
- 	border-bottom: @grayscale17;
+         border-bottom: none;
         .border-radiuses-top(@portlet-border-radius);
         position: relative;
  h2 {
@@ -31,9 +30,9 @@ a.btn {
             list-style: none;
             line-height: 20px;
             a {
-                color: @grayscale13;// header text color? 
+                color: @grayscale13;// header text color and possibly the text within the options dropdown box? 
                 &:hover {
-                    color: darken(@white, 20%) //hover over text and it shades this color? 
+                    color: darken(@white, 20%) //hover over URL text heading and it shades this color
                 }
             }
         }
@@ -45,7 +44,7 @@ a.btn {
             margin: 0;
 
             >a {
-                color: @grayscale11; // was bright green @grayscale15 now it should be pale pink 
+                color: @grayscale11; //"options" section in right corner of portlets  
                 font-size: 11px;
                 font-weight: normal;
 		}
@@ -54,10 +53,10 @@ a.btn {
                     border-top-color: @grayscale15;
 		}
 		&:hover {
-                    color: @grayscale17;
+                    color: @grayscale14;
 
         .caret {
-                        border-top-color: @grayscale17;
+                        border-top-color: @grayscale16;
                     }
                }
     }    }      
