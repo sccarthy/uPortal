@@ -12,57 +12,11 @@ a.btn {
 
 } //end of .portlet
 
+
+
 // style over-ride from content.less 
 .portal {
-
- .up-portlet-titlebar { // portlets header box background color  
-
- 	background-color: @grayscale12; /* Old browsers */
-        background-color: @grayscale12; 
-        #gradient > .vertical(lighten(@grayscale12, 5%), darken(@grayscale12, 10%), 0%, 100%);// portlets header box background color  
-        .border(@grayscale17); // top border line (one line across the top) of portlets header box 
-         border-bottom: none;
-        .border-radiuses-top(@portlet-border-radius);
-        position: relative;
- h2 {
-            font-size: 14px;
-            padding: 7px 7px;
-            margin: 0;
-            list-style: none;
-            line-height: 20px;
-            a {
-                color: @grayscale13;// header text color and possibly the text within the options dropdown box? 
-                &:hover {
-                    color: darken(@white, 20%) //hover over URL text heading and it shades this color
-                } // end of hover
-            } // end of a 
-        }// end of h2
-
- .btn-group {
-            position: absolute;
-            top: 2px;
-            right: 0;
-            margin: 0;
-
-            >a {
-                color: @grayscale11; //"options" section in right corner of portlets  
-                font-size: 11px;
-                font-weight: normal;
-		} // end of a 
-	
-		.caret {
-                    border-top-color: @grayscale15;
-		} //end of .caret 
-		&:hover {
-                    color: @grayscale14;
-        .caret {
-                        border-top-color: @grayscale16;
-                    } // of of .caret 
-               } // end of hover
-    	}// end of .btn-group   
-    } // end of .up-portlet-titlebar 
-
-
+ 
   .up-portlet-content-wrapper {
         background-color: @grayscale14;
         //.border(@portlet-border-color);
