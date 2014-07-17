@@ -17,23 +17,16 @@ a.btn {
 // style over-ride from content.less 
 .portal {
  
+
 .up-portlet-titlebar { // portlets header box background color  
 
  	background-color: @grayscale12; /* Old browsers */
         background-color: @grayscale12; 
         #gradient > .vertical(lighten(@grayscale12, 5%), darken(@grayscale12, 10%), 0%, 100%);// portlets header box background color  
         .border(@grayscale17); // top border line (one line across the top) of portlets header box 
-        // border-bottom: none;
-       // .border-radiuses-top(@portlet-border-radius);
-       // position: relative;
+        
  h2 {
-/*
-            font-size: 14px;
-            padding: 7px 7px;
-            margin: 0;
-            list-style: none;
-            line-height: 20px;  */
-            a {
+          a {
                 color: @grayscale13;// header text color and possibly the text within the options dropdown box? 
                 &:hover {
                     color: darken(@white, 20%) //hover over URL text heading and it shades this color
@@ -42,43 +35,63 @@ a.btn {
         }// end of h2
 
 .btn-group {
-/*
-            position: absolute;
-            top: 2px;
-            right: 0;
-            margin: 0;
-*/
+
             .a {
                 color: @grayscale11; //"options" section in right corner of portlets  
-                //font-size: 11px;
-                //font-weight: normal;
 		} // end of a 
-	.caret {
+		.caret {
                     border-top-color: @grayscale15;
 		} //end of .caret 
 		&:hover {
                     color: @grayscale14;
-        .caret {
+      		.caret {
                         border-top-color: @grayscale16;
                     } // of of .caret 
                } // end of hover
-
 	} // end of .btn-group 	
 } // end of .up-portlet-titlebar 
 
   .up-portlet-content-wrapper {
         background-color: @grayscale14; // background color of portlets 
-        //.border(@portlet-border-color);
 	.border(@grayscale11);// border of portlets (excluding the top) --> |_|
-        //border-top: none;
-        //.border-radiuses-bottom(@portletWrapperBorderRadius);
-        //overflow: hidden;
-        //padding: 10px;
-
-      //.stacktrace {
-      //  text-align: left;
-      //}
     } // end of .up-portlet-content-wrapper
 
- 
+ // style over-ride from footer.less 
+ .portal-footer-nav {
+        
+	background: @grayscale11; // footer "welcome" box 
+        color: @grayscale13;
+
+        a {      
+	   color: @grayscale17; // text color within the "welcome" box but excluding the word "welcome"
+            &:hover, &:focus {
+                color: @grayscale18;
+            } // end of hover
+        } // end of a 
+
+        h4 a {
+            color: @grayscale13;
+            
+            &:hover, &:focus {
+                color: @grayscale14;
+            }// end of hover
+        }// end of h4 a 
+    }// end of .portal-footer-nav 
+
+
+
+  .portal-footer-legal {
+	background: @grayscale12; // bottom footer box "powered by uPortal" 
+        color: @grayscale14;// text color within bottom footer box 
+        a {
+ 		color: @grayscale15;
+            &:hover, &:focus {
+		color: @grayscale16;
+            } //end of hover
+        } // end of a 
+    } // end of .portal-footer-legal 
+
+
+
+
 } // end of .portal
