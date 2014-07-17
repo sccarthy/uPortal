@@ -1,3 +1,9 @@
+//style over-ride from tags.less
+body {
+    background-color: @grayscale17; 
+    background-image: none;
+}
+
 //style over-ride from portlet.less 
 .portlet {
 
@@ -11,6 +17,7 @@ a.btn {
 }
 
 } //end of .portlet
+
 
 
 
@@ -83,11 +90,11 @@ a.btn {
 
   .portal-footer-legal {
 	background: @grayscale12; // bottom footer box "powered by uPortal" 
-        color: @grayscale14;// text color within bottom footer box 
+        color: @grayscale14;// text (non-URLs) color within bottom footer box 
         a {
- 		color: @grayscale17;
+ 		color: @grayscale17; // text URL links  
             &:hover, &:focus {
-		color: @grayscale18; // highlight text the mouse is hovering over 
+		color: @grayscale18; // highlight text URL link when the mouse is hovering over 
             } //end of hover
         } // end of a 
     } // end of .portal-footer-legal 
