@@ -1,5 +1,6 @@
+//style over-ride from tags.less
 body {
-    background-color: @grayscale15; 
+    background-color: @grayscale10; 
     background-image: none;
 }
 
@@ -22,20 +23,15 @@ a.btn {
 
 // style over-ride from content.less 
 .portal {
-//style over-ride from tags.less
-//body {
-   // background-color: @grayscale15; 
-    //background-image: none;
-//}
 
- //background-color: @black; 
+
 
 .up-portlet-titlebar { // portlets header box background color  
 
- 	background-color: @grayscale12; /* Old browsers */
-        background-color: @grayscale12; 
-        #gradient > .vertical(lighten(@grayscale12, 5%), darken(@grayscale12, 10%), 0%, 100%);// portlets header box background color  
-        .border(@grayscale17); // top border line (one line across the top) of portlets header box 
+ 	background-color: @color1-dark; /* Old browsers */
+        background-color: @color1-dark;
+        #gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%);// portlets header box background color  
+        .border(@grayscale16); // top border line (one line across the top) of portlets header box 
         
  h2 {
           a {
