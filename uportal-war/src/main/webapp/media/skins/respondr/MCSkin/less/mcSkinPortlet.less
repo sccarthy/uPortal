@@ -46,7 +46,7 @@ a.btn {
             right: 0;
             margin: 0;
 
-            .a {
+            >a {
                 color: @grayscale11; //"options" section in right corner of portlets  
                 font-size: 11px;
                 font-weight: normal;
@@ -61,14 +61,13 @@ a.btn {
                     } // of of .caret 
                } // end of hover
 
-
 	} // end of .btn-group 	
 } // end of .up-portlet-titlebar 
 
   .up-portlet-content-wrapper {
-        background-color: @grayscale14;
+        background-color: @grayscale14; // background color of portlets 
         //.border(@portlet-border-color);
-	.border(@grayscale11);
+	.border(@grayscale11);// border of portlets (excluding the top) --> |_|
         border-top: none;
         //.border-radiuses-bottom(@portletWrapperBorderRadius);
         overflow: hidden;
