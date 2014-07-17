@@ -85,31 +85,22 @@ a.btn {
 	background: @grayscale12; // bottom footer box "powered by uPortal" 
         color: @grayscale14;// text color within bottom footer box 
         a {
- 		color: @grayscale15;
+ 		color: @grayscale17;
             &:hover, &:focus {
-		color: @grayscale18;
+		color: @grayscale18; // highlight text the mouse is hovering over 
             } //end of hover
         } // end of a 
     } // end of .portal-footer-legal 
 
 
- .portlet-content {
-        color: @grayscale18;
-    }
+//style over-ride from region.less
+#region-customize {
 
- .portlet-msg {
-    color: @grayscale16;
-
-    &.info {
-        color: @grayscale17; 
-        
-    }
-
-    &.success {
-        color: @grayscale15;
-        
-    }
-} // end of .portlet-msg
+ #customizeOptions {
+            background-color: @grayscale18;
+            .border(@grayscale16);
+        }
+}//end of region-customize
 
 
 } // end of .portal
