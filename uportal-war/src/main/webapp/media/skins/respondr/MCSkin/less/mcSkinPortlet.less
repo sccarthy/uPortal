@@ -16,7 +16,8 @@ a.btn {
 
 // style over-ride from content.less 
 .portal {
- 
+
+ background-color: @black; 
 
 .up-portlet-titlebar { // portlets header box background color  
 
@@ -65,15 +66,15 @@ a.btn {
         a {      
 	   color: @grayscale17; // text color within the "welcome" box but excluding the word "welcome"
             &:hover, &:focus {
-                color: @grayscale18;
+                color: @grayscale18; // highlight text the mouse is hovering over 
             } // end of hover
         } // end of a 
 
         h4 a {
-            color: @grayscale13;
+            color: @grayscale13; // text color of the word "welcome" 
             
             &:hover, &:focus {
-                color: @grayscale14;
+                color: @grayscale14;  // highlight "welcome" text when mouse is hovering over 
             }// end of hover
         }// end of h4 a 
     }// end of .portal-footer-nav 
@@ -86,12 +87,29 @@ a.btn {
         a {
  		color: @grayscale15;
             &:hover, &:focus {
-		color: @grayscale16;
+		color: @grayscale18;
             } //end of hover
         } // end of a 
     } // end of .portal-footer-legal 
 
 
+ .portlet-content {
+        color: @grayscale18;
+    }
+
+ .portlet-msg {
+    color: @grayscale16;
+
+    &.info {
+        color: @grayscale17; 
+        
+    }
+
+    &.success {
+        color: @grayscale15;
+        
+    }
+} // end of .portlet-msg
 
 
 } // end of .portal
