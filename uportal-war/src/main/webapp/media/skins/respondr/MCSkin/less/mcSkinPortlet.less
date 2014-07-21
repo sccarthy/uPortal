@@ -47,12 +47,14 @@ a.btn {
         .border(@white); // top border line (one line across the top) of portlets header box 
         
  h2 {
-	color: @grayscale12;
           a {
                 color: @darkwhitecolor;// header text color and possibly the text within the options dropdown box? 
                 &:hover {
                     color: darken(@white, 20%) //hover over URL text heading and it shades this color
                 } // end of hover
+		ul.dropdown-menu {
+			color: @grayscale13;
+		}
             } // end of a 
         }// end of h2
 
@@ -76,6 +78,10 @@ a.btn {
   .up-portlet-content-wrapper {
         background-color: @grayscale8; // background color of portlets 
 	.border(@darkwhitecolor);// border of portlets (excluding the top) --> |_|
+	h2 {
+	color: @grayscale14;
+	}
+
     } // end of .up-portlet-content-wrapper
 
  // style over-ride from footer.less 
