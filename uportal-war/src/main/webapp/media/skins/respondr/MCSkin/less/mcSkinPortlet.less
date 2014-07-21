@@ -54,7 +54,14 @@ a.btn {
                 } // end of hover
 		
             } // end of a 
-        }// end of h2
+
+	ul{ 
+		color: @grayscale13; 
+	}
+	li {
+	color: @grayscale14;   
+	}
+       }// end of h2
 
 .btn-group {
 
@@ -70,6 +77,13 @@ a.btn {
                         border-top-color: @darkwhitecolor;
                     } // of of .caret 
                } // end of hover
+
+	ul{ 
+		color: @grayscale16; 
+	}
+	li {
+	color: @grayscale12;   
+	}
 	} // end of .btn-group 
 	
 .btn-group.open {
@@ -81,12 +95,14 @@ a.btn {
 	//		color: @grayscale13;
 	//	}
 
+/*
 	ul{ 
 		color: @grayscale16; 
 	}
 	li {
 	color: @grayscale12;   
 	}
+*/ 
 
 /*
 	li.a {
@@ -118,7 +134,8 @@ a.btn {
 
  // style over-ride from footer.less 
  .portal-footer-nav {
-        #gradient > .vertical(lighten(@grayscale10, 5%), darken(@grayscale10, 10%), 0%, 100%);
+       // #gradient > .vertical(lighten(@grayscale10, 5%), darken(@grayscale10, 10%), 0%, 100%);
+	#gradient > .vertical(lighten(@grayscale10, 5%), darken(@grayscale10, 10%), 0%, 100%);
 	//background: @darkgraycolor; // footer "welcome" box 
         color: @white; // text color for "welcome" header 
 
