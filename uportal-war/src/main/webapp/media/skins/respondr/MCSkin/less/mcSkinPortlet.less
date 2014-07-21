@@ -52,9 +52,7 @@ a.btn {
                 &:hover {
                     color: darken(@white, 20%) //hover over URL text heading and it shades this color
                 } // end of hover
-		ul.dropdown-menu {
-			color: @grayscale13;
-		}
+		
             } // end of a 
         }// end of h2
 
@@ -73,21 +71,37 @@ a.btn {
                     } // of of .caret 
                } // end of hover
 	} // end of .btn-group 	
+.btn-group.open {
+	>a {
+		color: @grayscale11;
+		}
+	ul.dropdown-menu {
+			color: @grayscale13;
+		}
+	}
+
 } // end of .up-portlet-titlebar 
 
   .up-portlet-content-wrapper {
         background-color: @grayscale8; // background color of portlets 
 	.border(@darkwhitecolor);// border of portlets (excluding the top) --> |_|
 	h2 {
-	color: @grayscale14;
+	color: @black;
 	}
+	p {
+	color: @black;
+	}
+	table {
+	color: @black;
+	} 
+
 
     } // end of .up-portlet-content-wrapper
 
  // style over-ride from footer.less 
  .portal-footer-nav {
-        
-	background: @darkgraycolor; // footer "welcome" box 
+        #gradient > .vertical(lighten(@grayscale10, 5%), darken(@grayscale10, 10%), 0%, 100%);
+	//background: @darkgraycolor; // footer "welcome" box 
         color: @white; // text color for "welcome" header 
 
         a {      
