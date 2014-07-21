@@ -45,10 +45,10 @@ a.btn {
 .btn-group {
 
             .a {
-                color: @grayscale3; //"options" section in right corner of portlets  
+                color: @grayscale11; //"options" section in right corner of portlets  
 		} // end of a 
 		.caret {
-                    border-top-color: @grayscale3;
+                    border-top-color: @grayscale12;
 		} //end of .caret 
 		&:hover {
                     color: @grayscale14;
@@ -60,28 +60,28 @@ a.btn {
 } // end of .up-portlet-titlebar 
 
   .up-portlet-content-wrapper {
-        background-color: @grayscale4; // background color of portlets 
+        background-color: @lightgraycolor; // background color of portlets 
 	.border(@grayscale11);// border of portlets (excluding the top) --> |_|
     } // end of .up-portlet-content-wrapper
 
  // style over-ride from footer.less 
  .portal-footer-nav {
         
-	background: @grayscale11; // footer "welcome" box 
-        color: @grayscale13; // text color for "welcome" header 
+	background: @darkgraycolor; // footer "welcome" box 
+        color: @white; // text color for "welcome" header 
 
         a {      
-	   color: @grayscale17; // text color within the "welcome" box but excluding the word "welcome"
+	   color: @lightgraycolor; // text color within the "welcome" box but excluding the word "welcome"
             &:hover, &:focus {
-                color: @grayscale18; // highlight text the mouse is hovering over 
+                color: @lightgreencolor; // highlight text the mouse is hovering over 
             } // end of hover
         } // end of a 
 
         h4 a {
-            color: @grayscale13; // text color of the word "welcome" 
+            color: @white; // text color of the word "welcome" 
             
             &:hover, &:focus {
-                color: @grayscale14;  // highlight "welcome" text when mouse is hovering over 
+                color: @grayscale4;  // highlight "welcome" text when mouse is hovering over 
             }// end of hover
         }// end of h4 a 
     }// end of .portal-footer-nav 
@@ -89,10 +89,10 @@ a.btn {
 
 
   .portal-footer-legal {
-	background: @grayscale12; // bottom footer box "powered by uPortal" 
+	background: @lightgraycolor; // bottom footer box "powered by uPortal" 
         color: @grayscale14;// text (non-URLs) color within bottom footer box 
         a {
- 		color: @grayscale17; // text URL links  
+ 		color: @darkgraycolor; // text URL links  
             &:hover, &:focus {
 		color: @grayscale18; // highlight text URL link when the mouse is hovering over 
             } //end of hover
