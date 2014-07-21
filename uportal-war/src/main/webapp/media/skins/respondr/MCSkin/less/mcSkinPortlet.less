@@ -37,15 +37,6 @@ a.btn {
     
 }
 
- .borderless {
-        background: @grayscale14;
-        border-color: @grayscale16;
-
-        .portlet-content {
-            color: @grayscale15;
-        }
-
-    }
 
 
 .up-portlet-titlebar { // portlets header box background color  
@@ -55,14 +46,15 @@ a.btn {
         #gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%);// portlets header box background color  
         .border(@white); // top border line (one line across the top) of portlets header box 
         
-// h2 {
+ h2 {
+	color: @grayscale12;
           a {
-                color: @grayscale3;// header text color and possibly the text within the options dropdown box? 
+                color: @darkwhitecolor;// header text color and possibly the text within the options dropdown box? 
                 &:hover {
                     color: darken(@white, 20%) //hover over URL text heading and it shades this color
                 } // end of hover
             } // end of a 
-       // }// end of h2
+        }// end of h2
 
 .btn-group {
 
