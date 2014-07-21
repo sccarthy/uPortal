@@ -5,6 +5,7 @@ body {
 }
 
 //style over-ride from portlet.less 
+/*
 .portlet {
 
 
@@ -16,7 +17,7 @@ a.btn {
     color: @grayscale11;
 }
 
-} //end of .portlet
+} */ //end of .portlet
 
 
 
@@ -24,6 +25,17 @@ a.btn {
 // style over-ride from content.less 
 .portal {
 
+//style over-ride from header.less
+.portal-header {
+    //background: @header-background-color;
+   background: #gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%); 
+   color: @header-text-color;
+
+    a {
+        color: @header-link-color;
+    }
+    
+}
 
 
 .up-portlet-titlebar { // portlets header box background color  
@@ -45,7 +57,7 @@ a.btn {
 .btn-group {
 
             >a {
-                color: @grayscale11; //"options" section in right corner of portlets  
+                color: @grayscale3; //"options" section in right corner of portlets  
 		} // end of a 
 		.caret {
                     border-top-color: @darkwhitecolor;
