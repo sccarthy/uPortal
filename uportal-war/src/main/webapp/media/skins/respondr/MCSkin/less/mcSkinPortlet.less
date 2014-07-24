@@ -5,11 +5,6 @@ body {
 }
 
 //style over-ride from portlet.less 
-.portlet {
-.emailSplash .text h2 {
-	color:@grayscale16; 
-	}
-}
 
 /*
 .portlet {
@@ -43,9 +38,7 @@ a.btn {
     
 }
 
-.emailSplash .text h2 {
-	color:@black; 
-}
+
 
 .up-portlet-titlebar { // portlets header box background color  
 
@@ -138,7 +131,7 @@ a.btn {
 	
 .btn-group.open {
 	>a {
-		color: @grayscale11;
+		color: @grayscale14;
 		}
 
 	//.dropdown-menu {
@@ -178,6 +171,12 @@ a.btn {
 	table {
 	color: @black;
 	} 
+	a {
+ 	color: @grayscale16; // text URL links  
+        &:hover, &:focus {
+	color: @grayscale11; // highlight text URL link when the mouse is hovering over 
+            } //end of hover
+        } // end of a 
 
 
 
