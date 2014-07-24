@@ -128,15 +128,23 @@ a.btn {
 	}
 */ 
 	} // end of .btn-group 
+
+
+	ul.dropdown-menu{
+		color: @grayscale14; 
+}
+	.dropdown-menu {
+			background-color: @grayscale8;
+		}
+	.dropdown-menu >li >a {
+		color: @black;
+	} 
 	
 .btn-group.open {
 	>a {
 		color: @grayscale14;
 		}
-.dropdown-toggle.btn-link{
-	background-color: @grayscale8;
-	color: @black;
-}
+
 
 
 	//.dropdown-menu {
@@ -177,7 +185,7 @@ a.btn {
 	color: @black;
 	} 
 	a {
- 	color: @color2-darker; // text URL links  
+ 	color: @grayscale19; // text URL links  
         &:hover, &:focus {
 	color: @lightgreencolor; // highlight text URL link when the mouse is hovering over 
             } //end of hover
