@@ -1,0 +1,29 @@
+{
+  "name": "uPortal-git",
+  "version": "0.0.0",
+  "description": "For more detailed help please refer to the [uPortal Manual](https://wiki.jasig.org/display/UPM40/Home)",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sccarthy/uPortal.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/sccarthy/uPortal/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.6",
+    "gulp-rename": "~1.2.0",
+    "gulp-concat": "~2.3.4",
+    "gulp-uglify": "~0.3.1",
+    "gulp-jshint": "~1.7.1",
+    "gulp-sass": "~0.7.2"
+  }
+}
