@@ -27,6 +27,6 @@
         <name>skin</name>
         <default-value>MCSkin2</default-value>
         <scope>PERSISTENT</scope>
-        <description>Skin2</description>
+        <description>MCSkin2</description>
     </stylesheet-parameter>
 </stylesheet-descriptor>
