@@ -78,5 +78,12 @@
     </skin-description>
   </skin>
 
+ <skin>
+    <skin-key>MCSkin2</skin-key>
+    <skin-name>MCSkin2</skin-name>
+    <skin-description>
+	Manhattan College Skin2 dev. 
+    </skin-description>
+
 </skins>
 
