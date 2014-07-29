@@ -47,9 +47,9 @@
    +-->
   <!--
   <css>../defaultSkin.css</css>
- 
- <css>../MCSkin.css</css>
  -->
+ <css>../MCSkin.css</css>
+ 
   <js import="true">../common/common_skin.xml</js>
 
 </resources>

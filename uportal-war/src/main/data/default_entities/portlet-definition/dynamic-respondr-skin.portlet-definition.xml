@@ -49,7 +49,8 @@
     </parameter>
 <portlet-preference>
     <name>PREFdynamicSkinName</name>
+	<value>secondSkin</value>
     <!--<value>secondSkin</value> -->
-	<value>nameSkin</value>
+<!--	<value>nameSkin</value> -->
 </portlet-preference>
 </portlet-definition>
