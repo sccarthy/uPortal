@@ -25,8 +25,8 @@
     <uri>classpath:/layout/theme/respondr/respondr.xsl</uri>
     <stylesheet-parameter>
         <name>skin</name>
-        <default-value>MCSkin2</default-value>
+        <default-value>MCSkin</default-value>
         <scope>PERSISTENT</scope>
-        <description>MCSkin2</description>
+        <description>MCSkin</description>
     </stylesheet-parameter>
 </stylesheet-descriptor>
