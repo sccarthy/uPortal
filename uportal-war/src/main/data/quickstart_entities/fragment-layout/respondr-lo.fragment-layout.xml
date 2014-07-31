@@ -37,8 +37,11 @@
     <folder ID="s6" hidden="true" immutable="true" name="Customize folder" type="customize" unremovable="true">
       <channel fname="personalization-gallery" unremovable="false" hidden="false" immutable="false" ID="n7"/>
     </folder>
-    <folder ID="s8" hidden="false" immutable="true" name="Header Left folder" type="header-left" unremovable="true">
-      <channel fname="portal-logo" unremovable="false" hidden="false" immutable="false" ID="n9"/>
+<folder ID="s8" hidden="false" immutable="true" name="Column" type="regular" unremovable="true">
+      <channel fname="accordion" unremovable="false" hidden="false" immutable="false" ID="n9"/>
     </folder>
+    <!--<folder ID="s8" hidden="false" immutable="true" name="Header Left folder" type="header-left" unremovable="true">
+      <channel fname="portal-logo" unremovable="false" hidden="false" immutable="false" ID="n9"/>
+    </folder> -->
   </folder>
 </layout>
