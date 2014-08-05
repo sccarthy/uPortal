@@ -34,7 +34,7 @@ a.btn {
       background:@mcBlue;
    // background: @header-background-color;
    // #gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%); 
-      #gradient > .vertical(lighten(@color2-dark, 5%), darken(@color2-dark, 10%), 0%, 100%);
+      //#gradient > .vertical(lighten(@color2-dark, 5%), darken(@color2-dark, 10%), 0%, 100%);
       color: @header-text-color;
 
     a {
@@ -47,9 +47,10 @@ a.btn {
 
 .up-portlet-titlebar { // portlets header box background color  
 
-        background-color: @color1-dark; /* Old browsers */
-        background-color: @color1-dark;
-        #gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%);// portlets header box background color  
+        //background-color: @color1-dark; /* Old browsers */
+        //background-color: @color1-dark;
+	background-color: @color1; 
+       // #gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%);// portlets header box background color  
         .border(@white); // top border line (one line across the top) of portlets header box 
         
  h2 {
@@ -96,7 +97,7 @@ a.btn {
 } // end of .up-portlet-titlebar 
 
   .up-portlet-content-wrapper {
-        background-color: @mcGray; // background color of portlets 
+        background-color: @mcLightGreen; // background color of portlets 
 	//.border(@darkwhitecolor);// border of portlets (excluding the top) --> |_|
 	h2 {
 	color: @black;
