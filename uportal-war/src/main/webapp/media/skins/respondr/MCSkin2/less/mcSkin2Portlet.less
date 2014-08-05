@@ -30,11 +30,14 @@ a.btn {
 .portal {
 
 //style over-ride from header.less
+/*
 .portal-header {
-      background:@mcOrange;
+      > background:@mcOrange;
     //background: @header-background-color;
    // #gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%); 
       //#gradient > .vertical(lighten(@color2-dark, 5%), darken(@color2-dark, 10%), 0%, 100%);
+ 	#gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%); 
+	
       color: @header-text-color;
 
     a {
@@ -42,7 +45,16 @@ a.btn {
     }
     
 }
+*/
 
+.portal-header {
+    background: @header-background-color;
+    color: @header-text-color;
+
+    a {
+        color: @header-link-color;
+    }  
+}
 
 
 .up-portlet-titlebar { // portlets header box background color  
