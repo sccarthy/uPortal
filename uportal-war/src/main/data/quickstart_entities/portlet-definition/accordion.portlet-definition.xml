@@ -62,19 +62,15 @@
         <value>
 
   &lt;script language=&quot;Javascript&quot; type=&quot;text/javascript&quot;&gt;
- <!--
- 		up.jQuery(function() {
-                    var $ = up.jQuery; -->
-                
+
                     $(document).ready(function(){
                       $(&quot;.accordion-demo&quot;).accordion({ clearStyle:true, collapsible:true, active:false }); 
        			console.log('accordion');
                             $(&quot;.accordion-demo&quot;).accordion('activate', 0);
                     }); 
-                <!--  }); -->
-                &lt;/script&gt;
+   &lt;/script&gt;
       
-                &lt;div class=&quot;demo-container accordion&quot;&gt;
+               &lt;div class=&quot;demo-container accordion&quot;&gt;
                   &lt;h2&gt;Accordion Demo&lt;/h2&gt;
                   &lt;div class=&quot;accordion-demo&quot;&gt;
                     &lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Section 1&lt;/a&gt;&lt;/h3&gt;

@@ -1,28 +1,9 @@
-/*
-@grayscale10: #333333;
-@color1: #006400; // dark green 
-@color1-dark: darken(@color1, 5%);
-@header-text-color: #FFFFFF;
-@header-link-color: #FFFFFF;
-@white: #FFFFFF;
-@black: #000000;
-@color2: #8AA9D8; 
-@darkwhitecolor: #F2F2F2;
-@darkgraycolor: #1E2126; 
-@lightgraycolor: #E0E0E0; 
-@lightgreencolor: #00A357; 
-@lightgreenmintcolor: #0AFF8D;
-@grayscale8: #696969; 
-@grayscale4: #CCCCCC;
-@color2-darkest: darken(@color2, 50%);
-@grayscale3: #D8D8D8;
-@color2-dark: darken(@color2, 10%);
-*/ 
 
 
 //style over-ride from tags.less
 body {
-    background-color: @grayscale10; 
+   // background-color: @grayscale10; 
+ background-color: @white; 
     background-image: none;
 }
 
@@ -50,9 +31,10 @@ a.btn {
 
 //style over-ride from header.less
 .portal-header {
-    background: @header-background-color;
-    #gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%); 
-   color: @header-text-color;
+      background:@mcBlue;
+   // background: @header-background-color;
+   // #gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%); 
+      color: @header-text-color;
 
     a {
         color: @header-link-color;
