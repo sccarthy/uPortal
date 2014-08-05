@@ -76,8 +76,8 @@
  *    regex searches by skin manager.
  */
 //@color1: #4065B0; // medium blue
-//@color1: #006400; // dark green
-@color1: #f66329; // mcOrange
+@color1: #006400; // dark green
+//@color1: #f66329; // mcOrange
 @color1-light: lighten(@color1, 10%);
 @color1-lighter: lighten(@color1, 25%);
 @color1-lightest: lighten(@color1, 50%);
@@ -145,9 +145,14 @@
 /**
  * User bar styles
  */
+/*
 @portal-global-background-color: @color1;
 @portal-global-background-gradient: false;
 @portal-global-border-color: @color1-light;
+*/
+@portal-global-background-color: @grayscale14;
+@portal-global-background-gradient: false;
+@portal-global-border-color: @grayscale15;
 
 /**
  * Theme based button styles
@@ -163,7 +168,9 @@
 /**
  * Nav
  */
-@navbar-background-color: @color1-dark;
+
+@navbar-background-color: @grayscale17;
+//@navbar-background-color: @color1-dark;
 @navbar-border-color: transparent;
 @navbar-border-size: 0;
 
