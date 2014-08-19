@@ -4,31 +4,13 @@ body {
     background-image: none;
 }
 
-//style over-ride from portlet.less 
-
-/*
-.portlet {
-
-
-li.btn a.button {
-    color: @grayscale11;
-}
-
-a.btn {
-    color: @grayscale11;
-}
-
-} */ //end of .portlet
-
-
-
 
 // style over-ride from content.less 
 .portal {
 
 //style over-ride from header.less
 .portal-header {
-    //background: @header-background-color;
+  
    #gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%); 
    color: @header-text-color;
 
@@ -37,7 +19,6 @@ a.btn {
     }
     
 }
-
 
 
 .up-portlet-titlebar { // portlets header box background color  
@@ -49,7 +30,7 @@ a.btn {
         
  h2 {
           a {
-                color: @darkwhitecolor;// header text color and possibly the text within the options dropdown box? 
+                color: @darkwhitecolor;// header text color  
                 &:hover {
                     color: darken(@white, 20%) //hover over URL text heading and it shades this color
                 } // end of hover
@@ -80,19 +61,12 @@ a.btn {
 	.dropdown-menu >li >a {
 		color: @black;
 	} 
-	
-//.btn-group.open {
-	//>a {
-	//	color: @grayscale14; // click options button and the word "option" turns this color 
-	//	}
 
-	//}// end of btn-group.open
 
 } // end of .up-portlet-titlebar 
 
   .up-portlet-content-wrapper {
 	background-color: @mcGray; // background color of portlets 
-        //background-color: @grayscale8; // background color of portlets 
 	.border(@darkwhitecolor);// border of portlets (excluding the top) --> |_|
 	h2 {
 	color: @black;
@@ -104,9 +78,9 @@ a.btn {
 	color: @black;
 	} 
 	a {
- 	color: @color2-darkest; // text URL links  
+ 	color: @color2-dark; // text URL links  
         &:hover, &:focus {
-	color: @color2-dark; // highlight text URL link when the mouse is hovering over 
+	color: @color2-darkest; // highlight text URL link when the mouse is hovering over 
             } //end of hover
         } // end of a 
 
@@ -134,7 +108,6 @@ a.btn {
     }// end of .portal-footer-nav 
 
 
-
   .portal-footer-legal {
 	background: @lightgraycolor; // bottom footer box "powered by uPortal" 
         color: @darkgraycolor;// text (non-URLs) color within bottom footer box 
@@ -146,16 +119,5 @@ a.btn {
         } // end of a 
     } // end of .portal-footer-legal 
 
-
-//style over-ride from region.less
-/*
-#region-customize {
-
- #customizeOptions {
-            background-color: @grayscale18;
-            .border(@grayscale16); // border around dropdown box
-        }
-}//end of region-customize
-*/ 
 
 } // end of .portal
