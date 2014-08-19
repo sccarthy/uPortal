@@ -42,7 +42,7 @@ body {
         
  h2 {
           a {
-                color: @darkwhitecolor;// header text color and possibly the text within the options dropdown box? 
+                color: @darkwhitecolor;// header text color  
                 &:hover {
                     color: darken(@white, 20%) //hover over URL text heading and it shades this color
                 } // end of hover
@@ -53,8 +53,7 @@ body {
 .btn-group {
 
             >a {
-                color: @header-text-color;
-		//color: @mcBlue; //"options" section in right corner of portlets 
+                color: @header-text-color; //"options" section in right corner of portlets 
 		} // end of a 
 		.caret {
                     border-top-color: @darkwhitecolor;
@@ -72,7 +71,6 @@ body {
 			background-color: @mcBlue;
 		}
 	.dropdown-menu >li >a {
-		//color: @black;
 		color:@darkwhitecolor;
 	} 
 
@@ -81,7 +79,7 @@ body {
 
   .up-portlet-content-wrapper {
 	background-color: @mcGray; // background color of portlets 
-	//.border(@darkwhitecolor);// border of portlets (excluding the top) --> |_|
+	.border(@darkwhitecolor);// border of portlets (excluding the top) --> |_|
 	h2 {
 	color: @black;
 	}
@@ -92,9 +90,9 @@ body {
 	color: @black;
 	} 
 	a {
- 	color: @color2-darkest; // text URL links  
+ 	color: @color2-dark; // text URL links  
         &:hover, &:focus {
-	color: @color2-dark; // highlight text URL link when the mouse is hovering over 
+	color:@color2-darkest; // highlight text URL link when the mouse is hovering over 
             } //end of hover
         } // end of a 
 
