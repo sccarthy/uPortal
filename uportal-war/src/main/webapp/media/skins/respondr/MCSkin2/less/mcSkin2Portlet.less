@@ -2,26 +2,10 @@
 
 //style over-ride from tags.less
 body {
-   // background-color: @grayscale10; 
+  
  background-color: @white; 
     background-image: none;
 }
-
-//style over-ride from portlet.less 
-
-/*
-.portlet {
-
-
-li.btn a.button {
-    color: @grayscale11;
-}
-
-a.btn {
-    color: @grayscale11;
-}
-
-} */ //end of .portlet
 
 
 
@@ -34,9 +18,7 @@ a.btn {
 .portal-header {
   
    	#gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%); 
-      //#gradient > .vertical(lighten(@color2-dark, 5%), darken(@color2-dark, 10%), 0%, 100%);
- 	//#gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%); 
-	
+
       color: @header-text-color;
 
     a {
@@ -51,27 +33,11 @@ a.btn {
 	background: @mcOrange; 
 	color: @white;
 }
-/*
-.portal-global {
-	background: @mcOrange;
-}
 
-.portal-header {
-    background: @header-background-color; //@mcOrange
-    color: @header-text-color;
-
-    a {
-        color: @header-link-color;
-    }  
-}
-*/
 
 .up-portlet-titlebar { // portlets header box background color  
-
-        //background-color: @color1-dark; /* Old browsers */
-       // background-color: @color1-dark;
-	background-color: @mcBlue; 
-       // #gradient > .vertical(lighten(@color1-dark, 5%), darken(@color1-dark, 10%), 0%, 100%);// portlets header box background color  
+  
+	background-color: @mcBlue; // portlets header box background color  
         .border(@white); // top border line (one line across the top) of portlets header box 
         
  h2 {
@@ -87,8 +53,8 @@ a.btn {
 .btn-group {
 
             >a {
-                //color: @grayscale3; //"options" section in right corner of portlets  
-		color: @mcBlue;
+                color: @header-text-color;
+		//color: @mcBlue; //"options" section in right corner of portlets 
 		} // end of a 
 		.caret {
                     border-top-color: @darkwhitecolor;
@@ -106,21 +72,15 @@ a.btn {
 			background-color: @mcBlue;
 		}
 	.dropdown-menu >li >a {
-		color: @black;
+		//color: @black;
+		color:@white;
 	} 
-	
-//.btn-group.open {
-	//>a {
-	//	color: @grayscale14; // click options button and the word "option" turns this color 
-	//	}
 
-	//}// end of btn-group.open
 
 } // end of .up-portlet-titlebar 
 
   .up-portlet-content-wrapper {
-        //background-color: @mcLightGreen; // background color of portlets 
-	background-color: @mcGray; 
+	background-color: @mcGray; // background color of portlets 
 	//.border(@darkwhitecolor);// border of portlets (excluding the top) --> |_|
 	h2 {
 	color: @black;
@@ -175,15 +135,5 @@ a.btn {
     } // end of .portal-footer-legal 
 
 
-//style over-ride from region.less
-/*
-#region-customize {
-
- #customizeOptions {
-            background-color: @grayscale18;
-            .border(@grayscale16); // border around dropdown box
-        }
-}//end of region-customize
-*/ 
 
 } // end of .portal

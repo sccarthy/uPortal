@@ -61,30 +61,38 @@
         <readOnly>false</readOnly>
         <value>
 
-  &lt;script language=&quot;Javascript&quot; type=&quot;text/javascript&quot;&gt;
-
+ &lt;script language=&quot;Javascript&quot; type=&quot;text/javascript&quot;&gt;
+                  up.jQuery(function() {
+                    var $ = up.jQuery;
+                
                     $(document).ready(function(){
-                      $(&quot;.accordion-demo&quot;).accordion({ clearStyle:true, collapsible:true, active:false }); 
-       			console.log('accordion');
-                            $(&quot;.accordion-demo&quot;).accordion('activate', 0);
-                    }); 
-   &lt;/script&gt;
-      
-               &lt;div class=&quot;demo-container accordion&quot;&gt;
+                   
+                      $(&quot;.accordion-test&quot;).accordion({ clearStyle:true, collapsible:true, active:false });        
+                           console.log('accordion');
+ 				$(&quot;.accordion-test&quot;).accordion('activate', 0);
+                      
+                    });
+                  });
+                &lt;/script&gt;
+        
+     
+               
                   &lt;h2&gt;Accordion Demo&lt;/h2&gt;
-                  &lt;div class=&quot;accordion-demo&quot;&gt;
+                  &lt;div class=&quot;accordion-test&quot;&gt;
                     &lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Section 1&lt;/a&gt;&lt;/h3&gt;
-                    &lt;div&gt;&lt;p&gt;In order to use the Google-based portlets for a hostname other than "localhost", you will need to sign up for a Google API key for the portlet. The Jasig Widget Portlet project provides a custom CONFIG mode interface for setting the Google API key. In uPortal 3.2 and above, this configuration feature may be accessed through the Portlet Administration Portlet. &lt;/p&gt;&lt;/div&gt;
+                    &lt;div&gt;&lt;p&gt;Proin euismod nibh ac enim. Nam augue est, tempus ut, semper id, ornare vel, lorem. Cras id ligula. Etiam porttitor ullamcorper felis. Proin egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris in nibh. Fusce eget odio. Duis bibendum elit eget ante. Ut sollicitudin tortor. Ut posuere lorem vitae mauris. Mauris lobortis felis nec nulla. Fusce accumsan sagittis ante. &lt;/p&gt;&lt;/div&gt;
                     &lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Section 2&lt;/a&gt;&lt;/h3&gt;
-                    &lt;div&gt;&lt;p&gt;Add a custom JSP page to uportal-portlets-overlay/src/main/webapp/WEB-INF/jsp (in an overlay situation like the typical uPortal build) and  configure the SimpleJspPortletController.jspName portlet preference to specify JSP page (see preferences in Manage Portlets when creating the portlet)&lt;/p&gt;&lt;/div&gt;
+                    &lt;div&gt;&lt;p&gt;Ut et nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In dapibus sagittis felis. Nullam tempus velit at nisi. Phasellus nulla tortor, commodo eu, lobortis ac, convallis nec, mi. Donec cursus eros ac velit. Sed mattis, tortor sed laoreet tempor, risus ipsum posuere nisi, non vehicula dui libero sed mauris. Sed nisl nulla, vulputate nec, ornare vel, ultricies at, nulla. Proin purus nisi, scelerisque eget, consequat quis, aliquet nec, pede. Pellentesque erat augue, rhoncus in, convallis sit amet, pellentesque a, leo. Duis tortor nunc, ornare ac, volutpat quis, molestie et, mauris. Cras rhoncus massa eget enim. Aliquam erat volutpat.&lt;/p&gt;&lt;/div&gt;
                     &lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Section 3&lt;/a&gt;&lt;/h3&gt;
-                    &lt;div&gt;&lt;p&gt;The portlet supports an is rolename property to use in the JSP  to allow for conditional menu building for sidebar menus, etc.  If needing other than standard security roles (faculty, staff, students), you must add additional security roles to a portlet.xml in the Jasig Widget overlay and specify the list of all the security roles as a portlet preference.  See comments in portlet.xml.&lt;/p&gt;
-                    &lt;p&gt;    Add the image file to uportal-portlets-overlay/src/main/webapp/images.
-    Add a  JSP page (say myLogo.jsp) that references the image using the HTML img element to uportal-portlets-overlay/src/main/webapp/WEB-INF/jsp.
-    Publish a new instance of the JasigWidgetsPortlet SimpleJSP portlet using the admin UI (Manage Portlets) or by creating a new XML file (I suggest the former, then export it to your src/main/data folder when done so it is available with an ant initdb on your test and prod systems)
-   &lt;/p&gt;&lt;/div&gt;
+                    &lt;div&gt;&lt;p&gt;Aliquam a leo. Phasellus congue tempor massa. In hac habitasse platea dictumst. Ut eu arcu eu velit pulvinar tempus. Nullam sit amet lorem ut dolor sagittis viverra. Curabitur in lacus dictum risus ultrices bibendum. Ut eu nibh et mauris ornare condimentum. Duis iaculis rutrum nisi. Sed facilisis augue ut neque. Pellentesque cursus libero vel neque. Nunc ornare eleifend lorem. Praesent ultrices hendrerit purus. Sed vitae tortor. Nunc velit. Suspendisse potenti.&lt;/p&gt;
+                    &lt;p&gt;In hac habitasse platea dictumst. Nullam eget nisi id risus mollis porta. Morbi mollis gravida est. Cras vehicula tellus a lorem. Nunc risus metus, ultricies vel, cursus sit amet, rhoncus non, felis. Nunc porttitor diam id enim. Duis quam neque, eleifend id, faucibus quis, iaculis vitae, diam. Praesent ante. Fusce malesuada hendrerit sapien. Nulla tincidunt dui in diam. Integer pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In fermentum quam non magna. Sed a felis. Cras quis ipsum. Duis elit odio, facilisis scelerisque, vehicula et, posuere quis, elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris nibh quam, porttitor quis, commodo at, cursus ac, quam. Donec lacinia. Fusce eget justo quis libero egestas porttitor. &lt;/p&gt;&lt;/div&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
+                
+              
+              
+               
+
 
 	</value>
     </portlet-preference>
